@@ -6,7 +6,8 @@ const { keys, values, getAnswer } = require('./algorithm');
 function question(key) {
   let value;
 
-  while (true) {
+  let ok = false;
+  while (!ok) {
     value = readlineSync.question(`${key} = `);
 
     if (key === 'a' && value === '0')
@@ -14,8 +15,10 @@ function question(key) {
     else if (isNaN(value) || (value === ''))
       console.log('Error. Expected a valid real number');
     else
-      return value;
+      ok = true;
   }
+
+  return value;
 }
 
 function interactive() {
