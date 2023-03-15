@@ -12,7 +12,7 @@ function isValid(values) {
   return true;
 }
 
-function uninteractive() {
+function noninteractive() {
   if (!fs.existsSync(process.argv[2])) {
     console.log('Error. File does not exist');
     return;
@@ -33,4 +33,4 @@ function uninteractive() {
     console.log('Error. Invalid data format');
 }
 
-exports.uninteractive = uninteractive;
+exports.noninteractive = noninteractive;
