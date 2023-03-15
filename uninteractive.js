@@ -4,7 +4,7 @@ const fs = require('fs');
 const { keys, values, getAnswer } = require('./algorithm');
 
 function isValid(values) {
-  if (values[0] === '0' || values.length !== 3) return false;
+  if (values[0] === 0 || values.length !== 3) return false;
 
   for (let i = 0; i < values.length; i++)
     if (isNaN(values[i]) || values[i] === '') return false;
