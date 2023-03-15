@@ -1,5 +1,5 @@
 # Quadratic Equation Solver
-This is a console application for solving quadratic equations by Kyrylo *LLumisS* Bukach.  
+This is a console application for solving quadratic equations by Kyrylo *LLumisS* Bukach, IM-11.  
 Quadratic equation is an equation of the form: `ax2 + bx + c = 0`.  
 Application has two modes of operation:  
 1. **Interactive mode** starts when the application does not receive any arguments. Application asks to enter three coefficients: *a* (which is not equals zero), *b*, *c* - all three should be valid real numbers.
