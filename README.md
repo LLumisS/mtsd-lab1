@@ -8,7 +8,8 @@ Application has two modes of operation:
 1. Install Node.js.
 2. Clone the repository on your local machine.
 3. Go to the cloned folder in your terminal.
-4. Use the command `node main.js` to activate interactive mode, `node main.js <path-to-file>` to activate non-interactive mode.
+4. Install node dependencies using `npm i`.
+5. Use the command `node main.js` to activate interactive mode, `node main.js <path-to-file>` to activate non-interactive mode.
 # File format
 The file must contain three numbers: `a b c` separated by spaces (\s). After `c` newline character (\n) expected. Use dot `.` to separate integer part of the number from decimal.
 # Revert-commit
